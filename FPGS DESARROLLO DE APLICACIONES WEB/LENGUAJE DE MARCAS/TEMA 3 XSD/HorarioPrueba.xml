@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Horario
+xmlns="http://www.iessonferrer.net/Ramon"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.iessonferrer.net/Ramon Horario.xsd">
+	<!-- Hay 7 sesiones al día -->
+	<sesiones>
+		<sesion1>
+			<inicio>15:10:00</inicio>
+			<fin>16:05:00</fin>
+		</sesion1>
+		<sesion2>
+			<inicio>16:05:00</inicio>
+			<fin>17:00:00</fin>
+		</sesion2>
+		<sesion3>
+			<inicio>17:00:00</inicio>
+			<fin>17:55:00</fin>		
+        	</sesion3>
+		<sesion4>
+			<inicio>17:55:00</inicio>
+			<fin>18:15:00</fin>		
+        </sesion4>
+
+		<sesion5>
+			<inicio>18:15:00</inicio>
+			<fin>19:10:00</fin>		
+        </sesion5>
+		<sesion6>
+			<inicio>19:10:00</inicio>
+			<fin>20:05:00</fin>		
+        </sesion6>
+		<sesion7>
+			<inicio>20:05:00</inicio>
+			<fin>21:00:00</fin>		
+        </sesion7>
+
+	</sesiones>
+	<semana>
+		<Lunes>
+			<sesion1>SIN</sesion1>
+			<sesion2>SIN</sesion2>
+			<sesion3>BD</sesion3>
+			<sesion4>PT</sesion4>
+			<sesion5>BD</sesion5>
+			<sesion6>BD</sesion6>
+			<sesion7>FOL</sesion7>
+		</Lunes>
+		<Martes>
+			<sesion1>BD</sesion1>
+			<sesion2>BD</sesion2>
+			<sesion3>LM</sesion3>
+			<sesion4>PT</sesion4>
+			<sesion5>BD</sesion5>
+			<sesion6>LM</sesion6>
+			<sesion7>LM</sesion7>
+		</Martes>
+		<Miercoles>	
+			<sesion1>ED</sesion1>
+			<sesion2>ED</sesion2>
+			<sesion3>ED</sesion3>
+			<sesion4>PT</sesion4>
+			<sesion5>LM</sesion5>
+			<sesion6>LM</sesion6>
+			<sesion7>LM</sesion7>
+		</Miercoles>	
+		<Jueves>	
+			<sesion1>FOL</sesion1>
+			<sesion2>FOL</sesion2>
+			<sesion3>BD</sesion3>
+			<sesion4>PT</sesion4>
+			<sesion5>BD</sesion5>
+			<sesion6>PR</sesion6>
+			<sesion7>PR</sesion7>
+		</Jueves>
+		<Viernes>	
+			<sesion1>SIN</sesion1>
+			<sesion2>SIN</sesion2>
+			<sesion3>SIN</sesion3>
+			<sesion4>PT</sesion4>
+			<sesion5>LM</sesion5>
+			<sesion6>PR</sesion6>
+			<sesion7>PR</sesion7>
+		</Viernes>
+	</semana>
+</Horario>

@@ -1,0 +1,31 @@
+{
+	"menu":{
+		"header":"Adobe SVG Viewer",
+		"item ":[
+			{"id": "Open"},
+			{"id":"OpenNew", "Label": "Open New"},
+			null,
+			{"id":"ZoomIn", "Label": "ZoomIn"},
+			{"id":"ZoomOut", "Label": "Zoom Out"},
+			{"id":"OriginalView", "Label": "Original View"},
+			null,
+			{"id":"Quality"},
+			{"id":"Pause"},
+			{"id":"Mute"},
+			null,
+			{"id":"Find", "Label":"Find..."},
+			{"id":"FindAgain", "Label":"Find Again"},
+			{"id":"Copy"},
+			{"id":"CopyAgain", "Label":"Copy Again"},
+			{"id":"CopySVG", "Label":"Copy SVG"},
+			{"id":"ViewSVG", "Label":"View SVG"},
+			{"id":"ViewSource", "Label":"View Source"},
+			{"id":"SaveAs", "Label":"Save As"},
+			null,
+			{"id":"Help"},
+			{"id":"About", "Label":"About Adobe CVG Viewer..."}
+		
+
+		]	
+	
+}}
