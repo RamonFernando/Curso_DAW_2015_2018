@@ -1,0 +1,44 @@
+p#capt1 img {
+    max-width: 312px;
+    display: inline-block;
+}
+
+p#capt2 {
+    max-width: 530px;
+}
+
+p#capt2 img {
+    width: 530px;
+}
+
+p#capt3 {
+    max-width: 240px;
+}
+
+p#capt4 img {
+    max-width: 464px;
+    display: inline-block;
+}
+
+p#capt5 img {
+    max-width: 304px;
+    display: inline-block;
+}
+
+p#capt6 {
+    max-width: 430px;
+}
+
+p#capt7 img {
+    max-width: 333px;
+    display: inline-block;
+}
+
+p#capt8 img {
+    display: inline-block;
+    text-align: center;
+}
+
+p#capt9 {
+    max-width: 550px;
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Paginas.xsl"?>
+
+<paginas>
+  <informacion>
+    <tituloPagina>Facebook</tituloPagina>
+    <enlace>Facebook</enlace>
+    <apartado>Perfil Ramon Fernando</apartado>
+    <url>https://www.facebook.com/ramonfernando.perezalvarez</url>
+ </informacion>
+ <informacion>
+    <tituloPagina>Twiter</tituloPagina>
+    <enlace>Twiter</enlace>
+    <apartado>Perfil Ramon Fernando</apartado>
+    <url>https://twitter.com/?lang=es</url>
+ </informacion>
+ <informacion>
+    <tituloPagina>w3schools</tituloPagina>
+    <enlace>w3schools</enlace>
+    <apartado>Inicio</apartado>
+    <url>http://www.w3schools.com</url>
+ </informacion>
+ <informacion>
+    <tituloPagina>Youtube</tituloPagina>
+    <enlace>Youtube</enlace>
+    <apartado>Wildcard</apartado>
+    <url>https://www.youtube.com/watch?v=ux9vr4xfWj4</url>
+    <nuevaVentana/>
+ </informacion>  
+
+</paginas>

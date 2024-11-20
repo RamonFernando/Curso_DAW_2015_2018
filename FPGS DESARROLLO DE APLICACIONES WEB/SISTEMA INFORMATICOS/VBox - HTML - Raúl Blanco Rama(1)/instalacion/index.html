@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Instalación de WIndows 3.11</title>
+        <link rel="stylesheet" type="text/css" href="../styleInt.css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+    </head>
+    <body>
+        <a class="linkPages" href="../index.html">Volver al principio</a>
+        <h1>Red de Windows 3.11 en redes modernas</h1>
+        <h2>(Protocolo TCP-IP a través de VirtualBox)</h2>
+        <h2>Raúl Blanco Rama</h2>
+        <br>
+        <div id="logos">
+            <img src="../images/logowindows311.jpg" />
+            <img src="../images/tcpip.png" />
+            <img src="../images/Virtualbox_logo.png" />
+        </div>
+        <h2 id="sectitle">1. Instalación de Windows 3.11</h2>
+        <nav id="indice">
+            <ul>
+                <li><a href="#preparacion">1.1. Preparar VirtualBox</a></li>
+                <li><a href="#instWindows">1.2. Instalación del sistema</a></li>
+                <li><a href="#instRed">1.3. Instalar tarjeta de red</a></li>
+            </ul>
+        </nav>
+        <p class="halfbr"></p>
+        <p id="nota">(Nota: Haz click en las imágenes para verlas a tamaño completo)</p>
+        <p class="halfbr"></p>
+        <section id="preparacion">
+            <h2>1.1. Preparar VirtualBox</h2>
+            <p class="contenido">
+                Para poder instalar el sistema operativo Windows 3.11, debemos tener de base una versión del sistema MS-DOS.
+                En este ejemplo se usará una máquina virtual con MS-DOS 6.22 instalado con algunos añadidos (CD, tarjeta de
+                sonido, arranque con selección, etc.).<br>
+                <br>
+                Si queremos usar la red en Windows 3.11, primero deberemos configurar Virtualbox para que la máquina virtual
+                tenga una tarjeta de red compatible, y crear una red a donde conectar las máquinas.<br>
+                <br>
+                En la configuración de Virtualbox, en el apartado de red, creamos una nueva <b>Red NAT</b>, la configuramos
+                y ponemos una red de IP (por ejemplo) <b>192.168.5.0</b> con <b>máscara de 24 bits</b> (255.255.255.0).<br>
+                <br>
+            </p>
+            <p id="capt1" class="capturas">
+                <a href="images/Captura.PNG"><img src="images/Captura.PNG" /></a>
+                <a href="images/Captura2.PNG"><img src="images/Captura2.PNG" /></a>
+                <a href="images/Captura3.PNG"><img src="images/Captura3.PNG" /></a><br>
+                <br>
+            </p>
+            <p class="contenido">
+                Después, en la máquina virtual, hay que instalar una tarjeta de red compatible. Vamos a la configuración de
+                la máquina, y en el apartado de Red abrimos las opciones avanzadas. En Tipo de adaptador elegimos la tarjeta
+                <b>PCNet-PCI II (Am79C970A)</b>.<br>
+                <br>
+            </p>
+            <p id="capt2" class="capturas">
+                <a href="images/Captura4.PNG"><img src="images/Captura4.PNG" /></a><br>
+                <br>
+            </p>
+            <p class="contenido">
+                Una vez configurado, podemos proceder a la instalación de Windows 3.11.<br>
+                <br>
+            </p>
+        </section>
+        <br>
+        <hr>
+        <br>
+        <section id="instWindows">
+            <h2>1.2. Instalación del sistema</h2>
+            <p class="contenido">
+                Arrancamos la máquina virtual, e iniciamos con los <b>drivers de CD</b> (ya que los drivers de la tarjeta de red
+                los tenemos en un .ISO).<br>
+                <br>
+            </p>
+            <p id="capt3" class="capturas">
+                <a href="images/Captura5.PNG"><img src="images/Captura5.PNG"></a><br>
+                <br>
+            </p>
+            <p class="contenido">
+                Una vez el sistema MS-DOS esté iniciado, insertamos el <b>disquete 1</b> de 9 de la instalación de Windows 3.11,
+                nos vamos a la unidad <b>A:</b>, y ejecutamos el programa <b>INSTALAR.EXE</b>.<br>
+                <br>
+                Seguimos las instrucciones que salen en pantalla, y seleccionamos la instalación rápida (básicamente, darle
+                dos veces a Enter). En la instalación nos pedirá que cambiemos el disquete. Cambiamos este por el pedido cuando
+                sea necesario.<br>
+                <br>
+            </p>
+            <br>
+            <p id="capt4" class="capturas">
+                <a href="images/Captura6.PNG"><img src="images/Captura6.PNG" /></a>
+                <a href="images/Captura7.PNG"><img src="images/Captura7.PNG" /></a><br>
+                <br>
+            </p>
+            <p class="contenido">
+                Después, aparecerá la interfaz gráfica del instalador de Windows. Rellenamos la información que nos pide
+                y seguimos con la instalación como antes.<br>
+                <br>
+            </p>
+            <p id="capt5" class="capturas">
+                <a href="images/Captura8.PNG"><img src="images/Captura8.PNG" /></a>
+                <a href="images/Captura9.PNG"><img src="images/Captura9.PNG" /></a>
+                <a href="images/Captura10.PNG"><img src="images/Captura10.PNG" /></a><br>
+                <br>
+            </p>
+            <p class="contenido">
+                Como no tenemos impresora conectada, instalamos la opción <b>No hay impresoras conectadas.</b><br>
+                <br>
+            </p>
+            <p id="capt6" class="capturas">
+                <a href="images/Captura11.PNG"><img src="images/Captura11.PNG" /></a><br>
+                <br>
+            </p>
+        </section>
+        <br>
+        <hr>
+        <br>
+        <section id="instRed">
+            <h2>1.3. Instalar tarjeta de red</h2>
+            <p class="contenido">
+                En la instalación de Windows se puede instalar directamente la tarjeta de red antes del primer inicio.<br>
+                <br>
+                Ya que la tarjeta de red de la que disponemos es más moderna que el sistema, debemos instalar drivers manualmente.
+                Seleccionamos de la lista <b>Adaptador de red no listado o actualizado</b>, insertamos el CD de drivers (la imagen
+                ISO en el VirtualBox), y seleccionamos la carpeta donde se encuentran los drivers.<br>
+                <br>
+            </p>
+            <p id="capt7" class="capturas">
+                <a href="images/Captura14.PNG"><img src="images/Captura14.PNG" /></a>
+                <a href="images/Captura15.PNG"><img src="images/Captura15.PNG" /></a>
+                <a href="images/Captura16.PNG"><img src="images/Captura16.PNG" /></a> <br>
+                <br>
+            </p>
+            <p class="contenido">
+                Por último, falta indicar el nombre del usuario, el nombre del PC en la red, y terminar la instalación de Windows
+                con los dos disquetes restantes.<br>
+                <br>
+            </p>
+            <p id="capt8" class="capturas">
+                <a href="images/Captura17.PNG"><img src="images/Captura17.PNG" /></a>
+                <a style="float: right" href="images/Captura18.PNG"><img src="images/Captura18.PNG" /></a><br>
+                <br>
+            </p>
+            <p class="contenido">
+                Al finalizar, nos avisará de que los archivos <b>CONFIG.SYS</b> y <b>AUTOEXEC.BAT</b> están modificados y se han creado copias
+                con las líneas necesarias para ejecutar la red de Windows. Estas copias están en C:\WINDOWS y se llaman
+                <b>CONFIG.WIN</b> y <b>AUTOEXEC.WIN</b>. Hay que sustituir estos con los archivos originales, y modificarlos para que haya
+                una nueva opción que ejecute automáticamente Windows 3.11 con las líneas incluidas de los drivers de red.<br>
+                <a href="https://drive.google.com/file/d/0BydlLn4DxfIEQVNFS25BQVZEb3c/view?usp=sharing">Ver vídeo de la edición de los archivos</a><br>
+                <br>
+            </p>
+            <p id="capt9" class="capturas">
+                <a href="images/Captura19.PNG"><img src="images/Captura19.PNG" /></a><br>
+                <br>
+            </p>
+            <p class="contenido" style="text-align: center">
+                <a href="https://drive.google.com/file/d/0BydlLn4DxfIEQldySHBaWExTRlE/view?usp=sharing">Ver vídeo de la instalación de Windows 3.11</a><br>
+                <br>
+            </p>
+            <a style="float: right" class="linkPages" href="../protocolo/index.html">Siguiente --></a>
+        </section>
+    </body>
+</html>

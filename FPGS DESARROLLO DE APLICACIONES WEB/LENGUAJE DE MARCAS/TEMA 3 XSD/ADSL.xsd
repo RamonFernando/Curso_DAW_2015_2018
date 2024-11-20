@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns="http://www.iessonferrer.net/Ramon"
+targetNamespace="http://www.iessonferrer.net/Ramon"
+elementFormDefault="qualified">
+	<xs:element name="connexions_ADSL">
+		<xs:complexType>
+			<xs:sequence>	
+				<xs:element name= "oferta" maxOccours="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nom_companyia" type="xs:string"/>
+							<xs:element name="velocitat_transferencia">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="pujada" type="xs:string"/>
+											<xs:element name="baixada" type="xs:string"/>
+										</xs:sequence>
+									</xs:complexType>
+							</xs:element>
+							<xs:element name="preu">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="alta" type="xs:string"/>
+											<xs:element name="linia" type="xs:string"/>
+											<xs:element name="mensual" type="xs:string"/>	
+											<xs:element name="total_mensual"/>
+										</xs:sequence>
+										<xs:attribute name="moneda" type="xs:string"/>
+									</xs:complexType>
+							</xs:element>
+						</xs:sequence>	
+					</xs:complexType>
+				</xs:sequence>
+						<xs:attribute name="id" type="xs:integer"/>
+						<xs:attribute name="nom" type="xs:string" />
+		</xs:complexType>
+	</xs:element>
+

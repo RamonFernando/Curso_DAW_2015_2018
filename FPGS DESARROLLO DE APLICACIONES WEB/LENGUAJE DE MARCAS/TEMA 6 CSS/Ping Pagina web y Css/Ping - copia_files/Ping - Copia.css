@@ -1,0 +1,73 @@
+header, main, nav, section,aside, article, footer{
+	border: 1px solid black;
+}
+header {
+	background-image: url("http://artescritorio.com/wp-content/uploads/2011/12/ubuntu_wall_hd_2-800x416.png");
+	background-position: center;
+	background-size: cover;
+}
+body {
+	background-image: url("https://images7.alphacoders.com/328/328915.jpg");
+	background-position: center;
+	background-size: cover;
+}
+h1 {	
+
+	color:#9F1349;
+	text-align: left; /* Esto es un comentario CSS */
+	
+}
+	
+	
+
+
+main {
+	display: flex;
+}
+nav{
+	background-image: url("http://science-all.com/images/wallpapers/ubuntu-wallpaper/ubuntu-wallpaper-23.jpg");
+	flex:1;
+	order:1;
+}
+section{
+	flex:4;
+	order:2;
+	display: flex;
+	flex-flow: column wrap;
+
+
+}
+aside{
+	background-image: url("http://science-all.com/images/wallpapers/ubuntu-wallpaper/ubuntu-wallpaper-23.jpg");
+	flex:1;
+	order:3;
+}
+body{
+	background-color: #FEFEFE;
+}
+article{
+	background-color: #E6E6E6;
+	margin: auto;
+	max-width: 500px;
+	text-align: center;
+}	
+img{
+	width:100% 
+}
+
+@media screen and (max-width: 900px){ /* @media screen:para cuando la pagina  
+								se haga mas	pequeña que se vaya modificando; */
+	section {
+		flex-flow: column-reverse nowrap;
+	}
+
+	aside, nav {
+		display: none;
+	}
+
+	article {
+		max-width: inherit !important;
+	}
+}	footer{
+	text-align: center;
+}

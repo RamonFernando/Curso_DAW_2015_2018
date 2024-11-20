@@ -1,0 +1,84 @@
+body{
+	margin:0px;
+	
+}
+header{
+	background: lightgray;
+	
+	width: auto;
+	height: 150px;
+}
+nav{
+	
+	background: #333;
+	height: 50px;
+	width:auto;
+	
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+
+}
+a{
+	text-align: center;
+	width: 100px;
+	background: #333;
+	color:white;
+	text-decoration: none;
+
+}
+a:hover{
+	background: lightblue;
+	color: #331;
+}
+
+main{
+
+	height: 1200px;
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	background-image: url("ubuntu.jpeg");
+	
+}
+
+article{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	border: 1px solid black;
+	width: 350px;
+	margin: 10px;
+	background-color: lightgray;
+	}
+	img{
+		width: 350px;
+		height: 350px;
+		
+	}
+
+
+footer{
+	background: gray;
+	
+	width: auto;
+	height: 70px;
+}
+
+@media screen and (min-width:750px){
+
+	main{
+		height: auto;
+
+	}
+	article{
+		width: 450px;
+	}
+	img{
+		width: 450px;
+		height: 450px;
+
+	}
+
+}

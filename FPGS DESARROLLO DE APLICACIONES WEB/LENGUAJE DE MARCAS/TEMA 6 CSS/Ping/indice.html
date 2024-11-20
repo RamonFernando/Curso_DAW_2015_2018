@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>Instalacion
+</title>
+<link rel="stylesheet" type="text/css" href="PruebaInstalacion.css">
+<link rel="icon" type="image/png" href="favicon.ico" />
+</head>
+<body>
+<header></header>
+<nav>
+<a href="indice.html"><p>INICIO</p></a>
+<a href="Video.html"><p>VIDEO</p></a>
+<a href="Referencias.html"><p>INFORMACION</p></a>
+
+</nav>
+<main>
+	<h1>Pasos para instalar <b>Window</b> 3.11</h1>
+
+<div>
+
+<article>
+	<a href="VirtualBox.png">
+	<img src="VirtualBox.png"/>
+	</a>
+	<span>
+		Para instalar un sistema Operativo Window 3.11 debemos tener de base una version MS-DOS. Debemos configurar el Virtual Box para que la targeta de Red sea compatible y crear una red donde conectar las 2 Maquinas.
+</article>
+<article>
+	<a href="ConfiguracionGeneral.png">
+	<img src="ConfiguracionGeneral.png"/>
+	</a>
+	<span>
+		En la configuracion de Virtualbox
+</article>
+<article>
+	<a href="DetallesRedNat.png">
+	<img src="DetallesRedNat.png"/>
+	</a>
+	<span>
+		En el apartado de red, creamos una nueva Red NAT, la configuramos y ponemos una red de IP ponemos 192.168.5.0 por ejemplo, con mascara de 24 bits (255.255.255.0).
+</article>
+<article>
+	<a href="DireccionMac.png">
+	<img src="DireccionMac.png"/>
+	</a>
+	<span>
+		En la maquina Virtual, configuramos una maquina de red compatible, en el apartado Red le damos a opciones Avanzadas y elegimos en: Tipo de Adaptador, la targeta PCNet-PCI II (Am79C970A).
+</article>
+<article>
+	<a href="Menu.png">
+	<img src="Menu.png"/>
+	</a>
+	<span>
+		Arrancamos la maquina virtual y una ves estemos en el Menu iniciamos con los drivers de CD.
+</article>
+<article>
+	<a href="UnidadA.png">
+	<img src="UnidadA.png"/>
+	</a>
+	<span>
+		Cuando el sistema MS-DOS inice insertamos el disquete 1 de los 9 de la instalacion de Windows 3.11, nos vamos a la unidad A:, y ejecutamos el programa INSTALAR.EXE.
+
+</article>
+<article>
+	<a href="Instalacion de Diskete 2.png">
+	<img src="Instalacion de Diskete 2.png"/>
+	</a>
+	<span>
+		Luego seguimos las instrucciones y le damos a la instalacion rapida, cuando nos pida el cambio de disquete seleccionamos el 2 y asi susecivamente.
+</article>
+<article>
+	<a href="Nombre.png">
+	<img src="Nombre.png"/>
+	</a>
+	<span>
+		Cuando aparezca la interfaz grafica rellenamos los datos que nos piden, en mi caso puse mi nombre.
+</article>
+<article>
+	<a href="InstalaciondeRedes.png">
+	<img src="InstalaciondeRedes.png"/>
+	</a>
+	<span>
+		Seleccionamos Instalar red.
+</article>
+<article>
+	<a href="Impresora.png">
+	<img src="Impresora.png"/>
+	</a>
+	<span>
+		Seleccionamos no hay impresora conectada cuando lleguemos a Instalacion de las impresoras.
+</article>
+<article>
+	<a href="AdaptadorRed.png">
+	<img src="AdaptadorRed.png"/>
+	</a>
+	<span>
+		Procedemos a instalar la targeta de red seleccionando Adaptador de red no listado o actualizado.
+</article>
+<article>
+	<a href="Drivers.png">
+	<img src="Drivers.png"/>
+	</a>
+	<span>
+		Insertamos el cd de la imagen ISO en el VB(Virtual Box) y buscamos la carpeta donde se encuentran los drivers.
+</article>
+<article>
+	<a href="Drivers install.png">
+	<img src="Drivers install.png"/>
+	</a>
+	<span>
+		Seleccionamos Advance Micro Device PCNET family y le damos aceptar.
+</article>
+<article>
+	<a href="ErrorAdaptadorRed.png">
+	<img src="ErrorAdaptadorRed.png"/>
+	</a>
+	<span>
+		Si no hacemos bien los pasos nos podria aparecer un error como este.
+</article>
+<article>
+	<a href="Nombre.png">
+	<img src="Nombre.png"/>
+	</a>
+	<span>
+		Ahora falta indicar el nombre del usuario, en mi caso mi nombre, el nombre del PC en la red 
+</article>
+<article>
+	<a href="InstalacionDeControlador.png">
+	<img src="InstalacionDeControlador.png"/>
+	</a>
+	<span>
+		Para terminar la instalación de Windows seguimos con los dos disquetes restantes.
+</article>
+<article>
+	<a href="Fin Instalacion.png">
+	<img src="Fin Instalacion.png"/>
+	</a>
+	<span>
+		Cuando terminemos nos avisara que el archivo CONFIG.SYS y AUTOEXEC:BAT estan modificados(C:\WINDOWS) se llaman CONFIG:WIN y AUTOEXEC:WIN se sustituyen los originales y modificarlos y listo.
+</article>
+<article>
+	<a href="http://www.fond-ecran.net/fonds/windows_002.jpg">
+	<img src="http://www.fond-ecran.net/fonds/windows_002.jpg"/>
+	</a>
+	<span>
+		
+</article>
+<article>
+	<a href="ipconfig.png">
+	<img src="ipconfig.png"/>
+	</a>
+	<span>
+		Cuando estemos dentro de la interfaz, vamos a Main-MSDOS y lo ejecutamos, luego para saber la IP ponemos ipconfig sin dejar espacios y damos enter.
+</article>
+<article>
+	<a href="9  Hace Ping.png">
+	<img src="9  Hace Ping.png"/>
+	</a>
+	<span>
+		Para que finalmente hagan ping las dos maquinas, ponemos ping mas la IP de la maquina, en mi caso 192.168.1.201 y 202 (cambiamos el ultimo numero y tenemos una IP nueva), presionamos enter y listo.
+</article>
+
+</div>
+
+
+</main>
+<footer>
+	<img class="imag"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTedtMoT42g_YKEsl3PY6-O_bbBYTvraB1T_3Gz87brqpxH2ovJQ"style="width:1px,height:1px">
+	Todos los derechos recervados
+	<img class="imag"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTedtMoT42g_YKEsl3PY6-O_bbBYTvraB1T_3Gz87brqpxH2ovJQ"style="width:1px ,height:1px">
+	
+</footer>
+</body>
+</html>

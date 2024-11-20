@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Informacion
+</title>
+<link rel="stylesheet" type="text/css" href="PruebaInformacion.css">
+</head>
+<body>
+<header>
+	<div><p>Texto</p>
+	</div>
+</header>
+<nav>
+<a href="indice.html"><p>INICIO</p></a>
+<a href=""><p>VIDEO</p></a>
+<a href=""><p>INFORMACION</p></a>
+
+</nav>
+<div>
+
+
+
+
+
+</div>
+<footer>
+	<img class="imag"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTedtMoT42g_YKEsl3PY6-O_bbBYTvraB1T_3Gz87brqpxH2ovJQ"style="width:1px,height:1px">
+	Todos los derechos recervados
+	<img class="imag"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTedtMoT42g_YKEsl3PY6-O_bbBYTvraB1T_3Gz87brqpxH2ovJQ"style="width:1px ,height:1px">
+	
+</footer>
+</body>
+</html>

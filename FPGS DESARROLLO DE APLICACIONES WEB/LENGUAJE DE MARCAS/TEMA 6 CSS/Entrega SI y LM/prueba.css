@@ -1,0 +1,131 @@
+body{
+	margin:0px;
+	background-image: url("ubuntu.jpg");
+}
+header{
+	background: lightgray;
+
+	
+	width: auto;
+	height: 25px;
+}
+nav{
+	
+	background: #333;
+	height: 50px;
+	width:auto;
+	
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+
+}
+a{
+	text-align: center;
+	width: 115px;
+	background: #333;
+	color:white;
+	text-decoration: none;
+
+}
+a:hover{
+	background: lightblue;
+	color: #333;
+}
+div{
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+
+}
+
+h1{
+	color: #331;
+	text-align: center;
+}
+main{
+
+	height: 1200px;
+	
+	background-image: url("ubuntu.jpg");
+	
+}
+
+article{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	border: 1px solid black;
+	width: 350px;
+	margin: 10px;
+	background-color: lightgray;
+	box-shadow: 0 0 2px 1px blue;
+}
+article:hover{
+
+	box-shadow: 0 0 2px 1px red;
+}
+	img{
+		width: 350px;
+		height: 350px;
+		
+	}
+
+
+footer{
+	background: gray;
+	text-align: center;
+	width: auto;
+	height: 30px;
+}
+img.imag{
+	width: 25px;
+	height: 30px;
+}
+@media screen and (min-width:750px){
+
+	main{
+		height: auto;
+
+	}
+	article{
+		width: 450px;
+	}
+	img{
+		width: 450px;
+		height: 450px;
+
+	}
+
+}
+video{
+	width:450px; 
+	height:350px;
+}
+article.vid{
+	font-size: 20px;
+	color:white;
+	text-align: center;
+	background-image: url("video.jpg");
+	background-position: center;
+
+}
+a.video{
+	
+	background-image: url("video.jpg");
+	background-position: center;
+}
+
+aside{
+	background-color: lightgray;
+}
+div.info{
+	padding-top:50px; 
+	padding-left: 50px;
+	padding-right:50px; 
+	text-align: justify;
+
+	
+	font-size: 22px;
+}

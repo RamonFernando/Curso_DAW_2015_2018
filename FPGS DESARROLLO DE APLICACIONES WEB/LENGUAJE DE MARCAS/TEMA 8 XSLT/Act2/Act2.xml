@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<vendes>
+<article>
+  <descripcio>
+    <llarga>Disco duro de 128 GB - Toshiba Canvio AeroMobile SSD</llarga>
+    <curta>Thos128</curta>
+  </descripcio>
+  <trimestre id="primer">
+    <unitats>230</unitats>
+  </trimestre>
+  <trimestre id="segon">
+    <unitats>210</unitats>
+  </trimestre>
+  <trimestre id="tercer">
+    <unitats>250</unitats>
+  </trimestre>
+  <trimestre id="quart">
+    <unitats>430</unitats>
+  </trimestre>
+</article>
+</vendes>

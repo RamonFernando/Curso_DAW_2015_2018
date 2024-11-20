@@ -1,0 +1,38 @@
+header, main, nav, section,aside, article, footer{
+	border: 1px solid red;
+}
+header{
+		}
+		h1{
+			color:orange;
+		text-align: center; /* Esto es un comentario CSS */
+		}
+		
+	
+
+
+
+
+main{
+	display: flex;
+}
+nav{
+	flex:1;
+	order:1;
+}
+section{
+	flex:4;
+	order:2;
+	display: flex;
+	flex-direction:column-reverse;
+
+}
+aside{
+	flex:1;
+	order:3;
+}
+body{
+	background-color: #FEFEFE;
+	
+	}
+	

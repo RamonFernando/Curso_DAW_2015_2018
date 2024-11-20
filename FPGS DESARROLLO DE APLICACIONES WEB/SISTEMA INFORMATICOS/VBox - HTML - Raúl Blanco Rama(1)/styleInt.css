@@ -1,0 +1,115 @@
+body {
+    max-width: 1000px;
+    background-color: lightgrey;
+    font-family: Arial;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#logos {
+    text-align: center;
+}
+
+#logos img {
+    height: 100px;
+    filter: drop-shadow(15px 10px 12px #666);
+    -webkit-filter: drop-shadow(15px 10px 12px #666);
+}
+
+h2#sectitle {
+    font-size: 1.75em;
+    font-weight: 900;
+}
+
+#indice {
+    display: block;
+    margin: 0 auto;
+    width: 22em;
+}
+
+#indice ul li {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+    list-style-position: inside;
+}
+
+p {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.halfbr {
+    line-height: 1px;
+}
+
+p#nota {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+p.contenido {
+    font-size: 1.15em;
+    text-align: justify;
+}
+
+p.capturas img{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid hsl(0, 100%, 50%);
+    -webkit-animation: rainbow 10s infinite;
+    -o-animation: rainbow 10s infinite;
+    -moz-animation: rainbow 10s infinite;
+    animation: rainbow 10s infinite;
+    border-radius: 25px 5px;
+    box-shadow: 12px 7px 9px dimgrey;
+    vertical-align: middle;
+}
+
+@-webkit-keyframes rainbow {
+    0% {border-color: hsl(0, 100%, 50%);}
+    14.29% {border-color: hsl(30, 100%, 50%);}
+    28.57% {border-color: hsl(60, 100%, 50%);}
+    42.86% {border-color: hsl(120, 100%, 50%);}
+    57.14% {border-color: hsl(180, 100%, 50%);}
+    71.42% {border-color: hsl(240, 100%, 50%);}
+    85.72% {border-color: hsl(273, 100%, 50%);}
+}
+
+@-o-keyframes rainbow {
+    0% {border-color: hsl(0, 100%, 50%);}
+    14.29% {border-color: hsl(30, 100%, 50%);}
+    28.57% {border-color: hsl(60, 100%, 50%);}
+    42.86% {border-color: hsl(120, 100%, 50%);}
+    57.14% {border-color: hsl(180, 100%, 50%);}
+    71.42% {border-color: hsl(240, 100%, 50%);}
+    85.72% {border-color: hsl(273, 100%, 50%);}
+}
+
+@-moz-keyframes rainbow {
+    0% {border-color: hsl(0, 100%, 50%);}
+    14.29% {border-color: hsl(30, 100%, 50%);}
+    28.57% {border-color: hsl(60, 100%, 50%);}
+    42.86% {border-color: hsl(120, 100%, 50%);}
+    57.14% {border-color: hsl(180, 100%, 50%);}
+    71.42% {border-color: hsl(240, 100%, 50%);}
+    85.72% {border-color: hsl(273, 100%, 50%);}
+}
+
+@-ms-keyframes rainbow {
+    0% {border-color: hsl(0, 100%, 50%);}
+    14.29% {border-color: hsl(30, 100%, 50%);}
+    28.57% {border-color: hsl(60, 100%, 50%);}
+    42.86% {border-color: hsl(120, 100%, 50%);}
+    57.14% {border-color: hsl(180, 100%, 50%);}
+    71.42% {border-color: hsl(240, 100%, 50%);}
+    85.72% {border-color: hsl(273, 100%, 50%);}
+}

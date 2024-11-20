@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Instalar Protocolo TCP/IP</title>
+        <link rel="stylesheet" type="text/css" href="../styleInt.css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+    </head>
+    <body>
+        <a class="linkPages" href="../index.html">Volver al principio</a>
+        <h1>Red de Windows 3.11 en redes modernas</h1>
+        <h2>(Protocolo TCP-IP a través de VirtualBox)</h2>
+        <h2>Raúl Blanco Rama</h2>
+        <br>
+        <div id="logos">
+            <img src="../images/logowindows311.jpg" />
+            <img src="../images/tcpip.png" />
+            <img src="../images/Virtualbox_logo.png" />
+        </div>
+        <h2 id="sectitle">2. Instalar Protocolo TCP/IP</h2>
+        <nav id="indice">
+            <ul>
+                <li><a href="#inicio">2.1. Primer inicio de Windows</a></li>
+                <li><a href="#instalar">2.2. Instalar Protocolo</a></li>
+                <li><a href="#ip">2.3. Configurar IP</a></li>
+            </ul>
+        </nav>
+        <p class="halfbr"></p>
+        <p id="nota">(Nota: Haz click en las imágenes para verlas a tamaño completo)</p>
+        <p class="halfbr"></p>
+        <section id="inicio">
+            <h2>2.1. Primer inicio de Windows</h2>
+            <p class="contenido">
+                Para iniciar Windows, podemos hacerlo directamente del menú de inicio que hemos modificado antes, o ejecutando
+                el programa <b>WIN.EXE</b> en la carpeta <b>C:\WINDOWS</b>. Ya que tenemos los drivers del protocolo en una
+                ISO, arrancamos con los drivers de CD y ejecutamos Windows.<br>
+                <br>
+                La primera vez que arrancamos Windows, con los drivers de red, nos pedirá que creemos un archivo de contraseña.
+                No es obligatorio, pero es recomendable para iniciar sesión con una contraseña. La creamos e indicamos la
+                nueva contraseña.<br>
+                <br>
+            </p>
+            <p id="capt1" class="capturas">
+                <a href="images/Captura.PNG"><img src="images/Captura.PNG" /></a><br>
+                <a href="images/Captura2.PNG"><img src="images/Captura2.PNG" /></a><br>
+                <br>
+            </p>
+        </section>
+        <br>
+        <hr>
+        <br>
+        <section id="instalar">
+            <h2>2.2 Instalar Protocolo</h2>
+            <p class="contenido">
+                Para instalar el protocolo TCP/IP, vamos a la carpeta <b>Principal, Instalar Windows, Opciones, Cambiar la configuración
+                de red...</b>
+            </p>
+            <p id="capt2" class="capturas">
+                <a href="images/Captura3.PNG"><img src="images/Captura3.PNG" /></a><br>
+                <br>
+            </p>
+            <p class="contenido">
+                Abrimos la lista de <b>controladores</b> y vamos a <b>Agregar protocolo...</b><br>
+                <br>
+            </p>
+            <p id="capt3" class="capturas">
+                <a href="images/Captura4.PNG"><img src="images/Captura4.PNG" /></a>
+                <a href="images/Captura5.PNG"><img src="images/Captura5.PNG" /></a><br>
+                <br>
+            </p>
+            <p class="contenido">
+                Seleccionamos <b>Protocolo no listado o actulizado</b> e indicamos donde está el driver.<br>
+                <br>
+            </p>
+            <p id="capt4" class="capturas">
+                <a href="images/Captura6.PNG"><img src="images/Captura6.PNG" /></a>
+                <a href="images/Captura7.PNG"><img src="images/Captura7.PNG" /></a>
+                <a href="images/Captura8.PNG"><img src="images/Captura8.PNG" /></a><br>
+                <br>
+            </p>
+        </section>
+        <br>
+        <hr>
+        <br>
+        <section id="ip">
+            <h2>2.3. Configurar</h2>
+            <p class="contenido">
+                Una vez instalado, configuramos el protocolo TCP/IP para indicar la IP y la puerta de enlace de la red
+                (en este caso la IP sería 192.168.5.41 y la puerta de enlace 192.168.5.1), y establecer el protocolo TCP/IP
+                como predeterminado.<br>
+                <br>
+            </p>
+            <p id="capt5" class="capturas">
+                <a href="images/Captura9.PNG"><img src="images/Captura9.PNG" /></a><br>
+                <br>
+            </p>
+            <p class="contenido">
+                Una vez configurado todo, nos pedirá reiniciar el sistema. Después la red funcionará correctamente.<br>
+                <br>
+            </p>
+            <p class="contenido" style="text-align: center;">
+                <a href="https://drive.google.com/file/d/0BydlLn4DxfIEblRBOF9BYjhCRWM/view?usp=sharing">Ver vídeo de la instalación del protocolo</a><br>
+                <br>
+            </p>
+            <a style="float: left" class="linkPages" href="../instalacion/index.html"><-- Anterior</a><a style="float: right" class="linkPages" href="../ping/index.html">Siguiente --></a>
+        </section>
+    </body>
+</html>

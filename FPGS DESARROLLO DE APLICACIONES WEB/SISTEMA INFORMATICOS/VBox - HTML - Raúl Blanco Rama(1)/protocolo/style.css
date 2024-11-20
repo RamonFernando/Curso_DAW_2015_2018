@@ -1,0 +1,22 @@
+p#capt1 {
+    max-width: 430px;
+}
+
+p#capt2 {
+    max-width: 460px;
+}
+
+p#capt3 img {
+    display: inline-block;
+    max-width: 465px;
+}
+
+p#capt4 img {
+    display: inline-block;
+    max-width: 326px;
+}
+
+p#capt5 {
+    max-width: 505px;
+}
+

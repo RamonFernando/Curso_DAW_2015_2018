@@ -1,0 +1,46 @@
+<Lista>
+
+
+<Persona1>
+	<Nombre>Ann Brason</Nombre>
+	<Fecha>01/07/62</Fecha>
+	<Ocupacion>Software Ingenier</Ocupacion>
+	<EstadoCivil>Singel</EstadoCivil>
+	<Lugar>Mountain View.SA</Lugar>
+	<Email>annie@boards-r-us.com</Email>
+	<Nota>Collecting Books,Beermaking,Equestrian</Nota>
+	<Interes>New Job</Interes>
+</Persona1>
+
+<Persona2>
+	<Nombre>Jamie Hamilton</Nombre>
+	<Fecha>10/09/64</Fecha>
+	<Ocupacion>System Administrator</Ocupacion>
+	<EstadoCivil>Singel</EstadoCivil>
+	<Lugar>Sunnyvale.CA</Lugar>
+	<Email>dontbother@breakneckpizza.com</Email>
+	<Nota>Hiking,Writing</Nota>
+	<Interes>Friends, Women to date</Interes>
+</Persona2>
+
+<Persona3>
+	<Nombre>Alan Soukup</Nombre>
+	<Fecha>01/07/66</Fecha>
+	<Ocupacion>Aeronaitical Ingenier<Ocupacion>
+	<EstadoCivil>Married</EstadoCivil>
+	
+</Persona3>
+
+<Persona4>
+	<Nombre>Angelina Mendoza</Nombre>
+	<Fecha>19/08/79</Fecha>
+	<Ocupacion>Unix Sysadmin</Ocupacion>
+	<EstadoCivil>Married</EstadoCivil>
+	<Lugar>San Francisco CA</Lugar>
+	<Email>angelina@starbuzzcofee.com</Email>
+	<Nota>Acting,Dancing</Nota>
+	<Interes>New Job</Interes>
+</Persona4>
+
+</Lista>
+

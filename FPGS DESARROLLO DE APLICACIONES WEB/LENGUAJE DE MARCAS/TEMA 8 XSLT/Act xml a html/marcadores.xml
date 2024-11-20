@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="marcador.xsl"?>
+
+<marcadores>
+ 
+  <marcador>
+    <titulo>Buscador Google</titulo>
+    <enlace>Google</enlace>
+    <destino>http://www.google.es</destino>
+  </marcador>
+ 
+  <marcador>
+    <titulo>IES Son Ferrer</titulo>
+    <enlace>IES Son Ferrer</enlace>
+    <destino>http://www.iessonferrer.net</destino>
+    <nuevaVentana/>
+  </marcador>
+
+</marcadores>

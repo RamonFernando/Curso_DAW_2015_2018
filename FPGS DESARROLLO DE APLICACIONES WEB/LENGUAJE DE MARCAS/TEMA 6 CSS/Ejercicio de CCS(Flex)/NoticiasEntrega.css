@@ -1,0 +1,63 @@
+header, main, nav, section,aside, article, footer{
+	border: 1px solid #FBDAB0;
+}
+header {
+	background-image: url("http://hardzone.es/app/uploads/2016/01/Sede-Intel.jpg");
+	background-position: center;
+	background-size: cover;
+}
+body {
+	background-image: url("http://wallpapercave.com/wp/aM3evnB.jpg");
+	background-position: center;
+	background-size: cover;
+}
+h1{
+	color:orange;
+	text-align: center; /* Esto es un comentario CSS */
+}
+main{
+	display: flex;
+}
+nav{
+	flex:1;
+	order:1;
+}
+section{
+	flex:4;
+	order:2;
+	display: flex;
+	flex-flow: row wrap;
+
+}
+aside{
+	flex:1;
+	order:3;
+}
+body{
+	background-color: #FEFEFE;
+}
+article{
+	background-color: #FBDAB0;
+	margin: auto;
+	max-width: 500px;
+	text-align: center;
+}	
+img{
+	width:100% 
+}
+
+@media screen and (max-width: 900px){
+	section {
+		flex-flow: column-reverse nowrap;
+	}
+
+	aside, nav {
+		display: none;
+	}
+
+	article {
+		max-width: inherit !important;
+	}
+}	footer{
+	text-align: center;
+}

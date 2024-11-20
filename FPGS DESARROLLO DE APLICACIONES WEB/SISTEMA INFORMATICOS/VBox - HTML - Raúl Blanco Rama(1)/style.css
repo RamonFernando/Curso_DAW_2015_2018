@@ -1,0 +1,40 @@
+body {
+    background-color: lightgrey;
+    font-family: Arial;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#logos {
+    text-align: center;
+    filter: drop-shadow(15px 10px 12px #666);
+    -webkit-filter: drop-shadow(15px 10px 12px #666);
+}
+
+#logos img {
+    display: inline-block;
+}
+
+#indice {
+    display: block;
+    margin: 0 auto;
+    width: 29em;
+}
+
+#indice ol li {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+    list-style-position: inside;
+}
+
+footer p {
+    text-align: center;
+}

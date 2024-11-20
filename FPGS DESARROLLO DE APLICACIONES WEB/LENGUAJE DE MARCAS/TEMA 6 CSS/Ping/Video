@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Videos
+</title>
+<link rel="stylesheet" type="text/css" href="PruebaVideo.css">
+</head>
+<body>
+<header></header>
+<nav>
+<a href="indice.html"><p>INICIO</p></a>
+<a href=""><p>VIDEO</p></a>
+<a href=""><p>REFERENCIAS</p></a>
+
+</nav>
+<div>
+
+
+
+
+
+</div>
+<footer>
+	<img class="imag"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTedtMoT42g_YKEsl3PY6-O_bbBYTvraB1T_3Gz87brqpxH2ovJQ"style="width:1px,height:1px">
+	Todos los derechos recervados
+	<img class="imag"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTedtMoT42g_YKEsl3PY6-O_bbBYTvraB1T_3Gz87brqpxH2ovJQ"style="width:1px ,height:1px">
+	
+</footer>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+  <!-- Ramon Fernando -->
+  <Inventario>
+    <Computadora>
+      <Marca nombre="Tacens">
+        <Modelo>TYJGHFB/350</Modelo>
+        <Almacen>34</Almacen>
+        <Procesador>Core i5 6600 3.6Ghz</Procesador>
+        <Memoria>8GB RAM DDR4</Memorias>
+        <DiscoDuro>1TB HDD</DiscoDuro>
+        <DiscoDuro>250GB SSD</DiscoDuro>
+        <Grafica>GTX 960 OC</Grafica>
+      </Marca>
+    </Computadora>
+  </Inventario>     
+  <Inventario>
+    <Computadora>
+      <Marca nombre="HP">  
+        <Modelo>TYJGHFC/351</Modelo>
+        <Almacen>34</Almacen>
+        <Procesador>AMD 3.4Ghz</Procesador>
+        <Memoria>8GB RAM DDR4</Memorias>
+        <DiscoDuro>1TB HDD</DiscoDuro>
+        <Grafica>GTX 480</Grafica>
+      </Marca>
+    </Computadora>
+    <Computadora>
+      <Marca nombre="TOSHIBA">  
+        <Modelo>TYJGHFX/352</Modelo>
+        <Almacen>34</Almacen>
+        <Procesador>i7 4790 4.0Ghz OC</Procesador>
+        <Memoria>12GB RAM DDR3</Memorias>
+        <DiscoDuro>1TB HDD</DiscoDuro>
+        <DiscoDuro>500GB SSD</DiscoDuro>
+        <Grafica>GTX 780Ti</Grafica>
+      </Marca>
+    </Computadora>
+    <Computadora>
+      <Marca nombre="DELL">  
+        <Modelo>TYJGHFX/352</Modelo>
+        <Almacen>34</Almacen>
+        <Procesador>i7 6700 3.8Ghz OC</Procesador>
+        <Memoria>16GB RAM DDR4</Memorias>
+        <DiscoDuro>1TB HDD</DiscoDuro>
+        <DiscoDuro>500GB SSD</DiscoDuro>
+        <Grafica>GTX 980Ti</Grafica>
+      </Marca>
+    </Computadora>
+  </Inventario>
+</xml>
+

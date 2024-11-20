@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Horario>
+	<!-- Hay 6 sesiones al día -->
+	<sesiones>
+		<sesion1>
+			<inicio></inicio>
+			<fin></fin>
+		</sesion1>
+		<sesion2>
+			<inicio></inicio>
+			<fin></fin>
+		</sesion2>
+	</sesiones>
+	
+
+

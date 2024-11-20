@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Lista_de_Reproducción SYSTEM "Lista.dtd">
+<Lista_de_Reproducción>
+	
+
+
+<Tema1>
+		<Ruta>/home/alumnat/Escritorio/Música/Música1.mp3</Ruta>
+		<Nombre_de_Archivo>
+		<Nombre_de_la_canción>Disparo_al_corazón</Nombre_de_la_canción>
+		<Artista>Riky_Martin</Artista>
+		<Duración>3:48min</Duración>
+		<Estilo>Pop</Estilo>
+		<Año>2015</Año>
+		</Nombre_de_Archivo>
+	
+		<Inicio>0.00</Inicio>
+		<Fin>3:46</Fin>
+		<Efecto_Inicio></Efecto_Inicio>
+		<Efecto_Final></Efecto_Final>
+
+</Tema1>
+
+
+
+<Tema2>
+		<Ruta>/home/alumnat/Escritorio/Música/Música1.mp3</Ruta>
+		<Nombre_de_Archivo>
+		<Nombre_de_la_canción>Yo_Quiero</Nombre_de_la_canción>
+		<Artista>Gente_de_zona_ft_Pitbull</Artista>
+		<Duración>3:26</Duración>
+		<Estilo>Reggeton_Romantico</Estilo>
+		<Año>2015</Año>
+		</Nombre_de_Archivo>
+	
+		<Inicio>0.00</Inicio>
+		<Fin>3:25</Fin>
+		<Efecto_Inicio></Efecto_Inicio>
+		<Efecto_Final></Efecto_Final>
+</Tema2>
+
+
+
+<Tema3>
+		<Ruta>/home/alumnat/Escritorio/Música/Música1.mp3</Ruta>
+		<Nombre_de_Archivo>
+		<Nombre_de_la_canción>La_Gozadera</Nombre_de_la_canción>
+		<Artista>Gente_de_zona_ft_Marc_Antoni</Artista>
+		<Duración>3:25</Duración>
+		<Estilo>Reggeton</Estilo>
+		<Año>2015</Año>
+		</Nombre_de_Archivo>
+	
+		<Inicio>0.00</Inicio>
+		<Fin>3:24</Fin>
+		<Efecto_Inicio></Efecto_Inicio>
+		<Efecto_Final></Efecto_Final>
+	
+</Tema3>
+
+
+
+<Tema4>
+		<Ruta>/home/alumnat/Escritorio/Música/Música1.mp3</Ruta>
+		<Nombre_de_Archivo>
+		<Nombre_de_la_canción>Vuelve</Nombre_de_la_canción>
+		<Artista>Juan_Magan_ft_Paulina_Rubio</Artista>
+		<Duración>3:49</Duración>
+		<Estilo>Pop</Estilo>
+		<Año>2015</Año>
+		</Nombre_de_Archivo>
+	
+		<Inicio>0.00</Inicio>
+		<Fin>3:47</Fin>
+		<Efecto_Inicio></Efecto_Inicio>
+		<Efecto_Final></Efecto_Final>
+</Tema4>
+
+
+
+
+</Lista_de_Reproducción>
